@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo test
-docker pull mjhea0/flask-docker-workflow
-docker stop flask
-docker rm flask
-docker run --name flask -d -p 80:80 mjhea0/flask-docker-workflow
+docker pull jaindeepak110/nodejs
+docker stop nodejs
+docker rm nodejs
+docker run --name nodejs -d -p 8080:8080 jaindeepak110/nodejs
